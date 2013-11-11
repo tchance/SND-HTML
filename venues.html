@@ -1,0 +1,165 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>SNDLOU | 2013</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/png" href="favicon.ico">
+<link href="style.css" rel="stylesheet" type="text/css" />
+<link href='http://fonts.googleapis.com/css?family=Alfa+Slab+One|Arvo:400,700,400italic,700italic|Roboto+Slab:400,100,300,700|Archivo+Black' rel='stylesheet' type='text/css'>
+<link rel="apple-touch-icon" href="http://www.tylerchance.net/snd/images/iphone.png" />
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+<link href="css/bootstrap-responsive.css" rel="stylesheet" type="text/css" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script src="scripts/jquery.slides.js"></script>
+<script src="scripts/jquery.sticky.js"></script>
+<script src="twitterfeed.js"></script>
+<script src="scripts/bootstrap.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('#thebigone').slidesjs({
+			height: '550px',
+			navigation:{active:false, effect:'slide'},
+			pagination: {active:true, effect:'slide'},
+			play: {auto: true},
+			pausetime: 6000,
+			pauseOnHover: true
+			});
+			
+		$('#eventmenu').hide();
+		$('#speakersmenu').hide();
+		
+		$('#dropitlow').click(function(){
+			$('#eventmenu').toggle('slow');
+			$('#dropitlow').addClass('showing');
+
+		});
+		
+		$('#dropit').click(function(){
+			$('#speakersmenu').toggle('slow');
+			$('#dropitlow').addClass('showing');
+
+		});
+		
+		});
+		
+		
+</script>
+</head>
+
+<body>
+
+<div class="navbar navbar-fixed-top" id="menu">
+	<div class="navbar-inner">
+    	<div class="container" id="insidemenu">
+        	<a class="brand" href="index.html" id="logo"><img src="images/nameplate.png" /></a>
+            		<!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+  						<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+    							<span class="icon-bar"></span>
+    							<span class="icon-bar"></span>
+    							<span class="icon-bar"></span>
+  						</a>
+                <div class="nav-collapse collapse">
+            	<ul id="navigation" class="nav">
+                	<li class="active"><a href="index.html">Home</a></li>
+                	<li class="active"><a href="http://www.sndlou.com/news">News</a></li>
+                    <li class="active"><a href="register.html">Register</a></li>
+                    <li class="active"><a href="speakers.html">Speakers & Schedule<a href="#" id="dropit"><img src="images/arrowdown.png"></a></a></li>
+                    <li class="active dropdown" id="events"><a href="venues.html">Events & Venues<a href="#" id="dropitlow"><img src="images/arrowdown.png"></a></a></li>
+                    <li class="active"><a href="sponsors.html">Be A Sponsor</a></li>
+                </ul>
+               
+                </div>
+                 <div id="eventmenu">
+                	<ul id="thedrop" ><li class="active"><a href="http://www.hacktucky.com/" target="new">Hacktucky</a></li>
+                	<li class="active"><a href="http://www.sndlou.com/news/2013/09/06/graphics-garage-coming-back-for-sndlou/" target="new">Graphics Garage</a></li></ul>
+                </div>
+                 <div id="speakersmenu">
+                	<ul id="thedrop" ><li class="active"><a href="http://sndlouisville2013.sched.org" target="new">Full Schedule</a></li>
+                	<li class="active"><a href="speakers.html" target="new">Speakers</a></li></ul>
+                </div>
+       </div>
+    </div>
+</div>
+
+<div id="main" class="container">
+	<div id="carousel" class="row">
+	<div id="thebigone" class="hidden-phone hidden-tablet">
+			<a href="alicenter.html"><div id="biggin" class="jumbotron masthead">
+				<img src="images/Alivenueslide.jpg" />
+                <div id="venue1copy">Sessions are held here:</div>
+			</div></a>
+			<a href="kdm.html"><div id="biggin" class="jumbotron masthead">
+				<img src="images/KDMvenueslide.jpg" />
+                <div id="venue2copy">Bet your paycheck here:</div>
+			</div></a>
+	</div>
+    <div id="forthephones" class="hidden-desktop">
+		<div id="smallin">
+				<img src="images/Alivenueslide.jpg" /> 
+                 
+		</div>
+	</div>
+    </div>
+	
+		
+        
+        <div id="content" class="row">
+        <div id="headline" class="row">
+        <h1>Events & Venues</h1>
+        </div>
+        <div id="body" class="span8">
+        	<div id="thepost">
+            <div class="row">
+            	<div style="width:245px; float:left; margin-left: 20px"><img src="ggtools.jpg"><h4>GRAPHICS GARAGE</h4><h5>Thursday, 9 A.M. to 5 P.M.</h5>
+<p>Jeff Goertzen and John Grimwade will each lead a half-day, hands-on training workshop focusing on Photoshop and visual thinking and storytelling. Pick one, and then spend the other half of the day listening to leaders in the design and graphics industry speak on topics ranging from design to starting a tablet magazine.Classrooms 1 & 2</p><p><a href="http://www.snd.org/training/" target="new">Register here</a></p></div>
+            	<div style="width:245px; float:left; margin-left: 20px"><img src="sndu.jpg"><h4>SNDU SESSIONS</h4><h5>Thursday, 9 A.M. to 5 P.M.</h5>
+				<p>The student sessions topics will hit on iPad publications, preparing for the job market and working freelance design gigs from experts like Steve Dorsey, Seth Gitner and Larry Buchanan. We'll finish off the afternoon with portfolio critiques from some of the news industry's brightest minds. Sponsored by Webtype and Font Bureau</p><p><a href="http://www.snd.org/training/" target="new">Register here</a></p></div>
+            	<div style="width:245px; float:left; margin-left: 20px"><img src="derbygala.jpg"><h4>DERBY GALA</h4><h5>Thursday, 6 P.M. to 10 P.M.</h5>
+				<p>We'll kick off the workshop in classic Louisville style at the Kentucky Derby Museum – which is nestled up to Churchill Downs. We'll provide hor d'oeuvres and good company, and play a great betting game for the SND Foundation.
+Live racing: Head to Churchill Downs early to catch a few live races. Gates open at 11:30 a.m. and the final race posts at 5:03 p.m.
+Bet-the-horses game for SNDF: We've got a fantastic betting game to play during the opening gala. Races will play on the 360 screen in the museum. They'll set up tellers, and for a small buy-in that benefits the SND Foundation, you’ll receive SNDCash to bet on the races. We’ll have prizes for the big winners
+Kentucky Derby Museum
+Sponsored by Gannett Design Studios</p></div>
+            </div>
+            <div class="row">
+            		<div style="width:245px; float:left; margin-left: 20px"><img src="hacktucky.jpg"><h4>HACKTUCKY</h4><h5>Friday at 3:30 P.M. to Saturday at 2 P.M.</h5>
+<p>We’re teaming up developers, designers and journalists to build and create usable digital products from scratch – all in less than 24 hours. We’ll use civic data, much of it related to Louisville and Kentucky. We’ll see the results and a winner will be chosen in the final SND 
+workshop session.
+Ali Center and the Galt House
+Sponsored by Advance and RJI</p><p><a href="http://www.hacktucky.com" target="new">Official site for Hacktucky</a></p></div>
+            	<div style="width:245px; float:left; margin-left: 20px"><img src="lebowski.jpg"><h4>LEBOWSKI NIGHT FUNDRAISER</h4><h5>Friday, 9 P.M. to 11 P.M.</h5>
+				<p>The SNDF Friday night fundraising event is back. The Lebowski theme is in honor of the film and Lebowski Fest, which is a huge event founded here in Louisville. For $30, you’ll get drinks and bowling at The Sports & Social Club. Even if you don’t want to bowl, come have a drink, and help raise money for a good cause. 
+Bowling challenge:  We'll have prizes for the highest rolling team at the SNDF  Lebowski night. You can form your team in advance,  and contact Jennifer Herrmann (jherrmann@gannett.com or @jen_herrmann)  to ensure your spot in the competition. Teams consist  of five people. 
+And yes, we’re rolling on Shabbos. 
+ The Sports & Social Club, 4th Street Live,
+Sponosored by American City Business Journals</p><p><a href="http://www.snd.org/training">Click here to buy tickets</a></p></div>
+            	<div style="width:245px; float:left; margin-left: 20px"><img src="icehouse.jpg"><h4>CLOSING EVENT</h4><h5>Saturday,7:30 P.M.to 10:30 P.M.</h5>
+				<p>We’re closing down this workshop with one last shindig. The Ice House is a beautiful space with good food, and we’ll keep it as entertaining as possible. It’s a  relaxed celebration where SND will honor its 35th anniversary, and also pass the torch to SND Frankfurt, the host of next year’s Fall Workshop in Germany. Auf Wiedersehen!
+ The Ice House, 217 E Main St.</p></div>
+            </div>
+            </div>
+        </div>
+        
+        <div id="sidebar" class="span3 offset1">
+        	<div id="twitter-feed">
+            
+            </div>
+        </div>
+        </div>
+        
+        <div id="under" class="row">
+        	<div id="theribbon" class="span12 hidden-phone hidden-tablet">
+			<div class="ribbon"><p><b>IT’S THE TRUTH #24:</b> 'Fear and Loathing' author and Gonzo journalist Hunter S. Thompson was born here on July 18, 1937.<p></div>
+            </div>
+		</div>
+        <div id="footer" class="row">
+        	<h6>Made with <a href="http://twitter.github.io/bootstrap/" target="new">Twitter Bootstrap</a> and elbow grease. Powered by <a href="http://www.wordpress.org" target="new">Wordpress</a>. </h6>
+        </div>
+        
+</div>
+
+</body>
+
+</html>

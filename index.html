@@ -1,0 +1,207 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>SNDLOU | 2013</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/png" href="favicon.ico">
+<link href="style.css" rel="stylesheet" type="text/css" />
+<link href='http://fonts.googleapis.com/css?family=Alfa+Slab+One|Arvo:400,700,400italic,700italic|Roboto+Slab:400,100,300,700|Archivo+Black' rel='stylesheet' type='text/css'>
+<link rel="apple-touch-icon" href="http://www.tylerchance.net/snd/images/iphone.png" />
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+<link href="css/bootstrap-responsive.css" rel="stylesheet" type="text/css" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script src="scripts/jquery.slides.js"></script>
+<script src="scripts/jquery.sticky.js"></script>
+<script src="scripts/bootstrap.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('#thebigone').slidesjs({
+			height: '550px',
+			navigation:{active:false, effect:'slide'},
+			pagination: {active:true, effect:'slide'},
+			play: {auto: true},
+			pausetime: 6000,
+			pauseOnHover: true
+			});
+			
+		$('#eventmenu').hide();
+		$('#speakersmenu').hide();
+		
+		//$('#dropitlow').hide();
+		$('#dropitlow').click(function(){
+			$('#eventmenu').toggle('slow');
+			$('#dropitlow').addClass('showing');
+
+		});
+		
+		$('#dropit').click(function(){
+			$('#speakersmenu').toggle('slow');
+			$('#dropitlow').addClass('showing');
+
+		});
+		
+		});
+		
+		
+</script>
+</head>
+
+<body>
+
+<div class="navbar navbar-fixed-top" id="menu">
+	<div class="navbar-inner">
+    	<div class="container" id="insidemenu">
+        	<a class="brand" href="index.html" id="logo"><img src="images/nameplate.png" /></a>
+                <div class="nav">
+            	<ul id="navigation" class="nav">
+                	<li class="active"><a href="index.html">Home</a></li>
+                	<li class="active"><a href="http://www.sndlou.com/news">News</a></li>
+                    <li class="active"><a href="register.html">Register</a></li>
+                    <li class="active"><a href="http://www.sndlou.com/news/schedule">Schedule & Speakers<a href="#" id="dropit"><img src="images/arrowdown.png"></a></a></li>
+                    <li class="active dropdown" id="events"><a href="venues.html">Events & Venues<a href="#" id="dropitlow"><img src="images/arrowdown.png"></a></a></li>
+                    <li class="active"><a href="sponsors.html">Be A Sponsor</a></li>
+                </ul>
+               
+                </div>
+                 <div id="eventmenu">
+                	<ul id="thedrop" ><li class="active"><a href="http://www.hacktucky.com/" target="new">Hacktucky</a></li>
+                	<li class="active"><a href="http://www.sndlou.com/news/2013/09/06/graphics-garage-coming-back-for-sndlou/" target="new">Graphics Garage</a></li>
+<li class="active"><a href="http://www.sndlou.com/news/sndf" target="new">SND Foundation Lebowski Night</a></li></ul>
+                </div>
+                 <div id="speakersmenu">
+                	<ul id="thedrop" ><li class="active"><a href="http://www.sndlou.com/news/schedule" target="new">Full Schedule</a></li>
+                	<li class="active"><a href="speakers.html" target="new">Announcements</a></li></ul>
+                </div>
+       </div>
+    </div>
+</div>
+
+
+<div id="main" class="container">
+		<div id="carousel" class="row">
+	<div id="thebigone" class="hidden-phone hidden-tablet">
+		
+		
+		<div id="biggin" class="jumbotron masthead">
+				<img src="images/mainjpg.jpg" />
+              	<div id="slide1hed">WELCOME <br />TO THE VILLE.</div>  
+		</div>
+		<a href="http://www.sndlou.com/news/schedule"><div id="biggin" class="jumbotron masthead">
+				<img src="images/scheduleslide.jpg" /> 
+		</div></a>
+		
+		<a href="http://www.sndlou.com/news/sndf" target="new"><div id="biggin" class="jumbotron masthead">
+			<img src="images/sndfslide1.jpg" /> 
+		</div></a>
+		
+		<a href="http://www.hacktucky.com/" target="new"><div id="biggin" class="jumbotron masthead">
+				<img src="images/hacktucky_slide96.jpg" /> 
+		</div></a>
+		
+		<a href="http://www.sndlou.com/news/2013/09/06/graphics-garage-coming-back-for-sndlou/" target="new"><div id="biggin" class="jumbotron masthead">
+				<img src="images/graphicsgarage_slide.jpg" /> 
+		</div></a>
+		<a href="http://www.sndlou.com/news/2013/10/06/sndlou-announces-sndlou/" target="new"><div id="biggin" class="jumbotron masthead">
+				<img src="images/SNDU.jpg" /> 
+		</div></a>
+		<a href="http://www.sndlou.com/speakers.html"><div id="biggin" class="jumbotron masthead">
+				<img src="images/megaphone2.jpg" />
+				<div id="speakerslidehed">SPEAKER ANNOUNCEMENT</div>
+				<div id="speakerannounce">DAVID WRIGHT / TWITTER &nbsp;&nbsp;  | &nbsp;&nbsp;  VIVIAN SELBO / SLATE</div>
+		</div></a>
+		
+			<a href="alicenter.html"><div id="biggin" class="jumbotron masthead">
+				<img src="images/alijpg.jpg" />
+              	<div id="slide2hed">LEARN <br />WITH THE <span id="modify">GREATEST</span></div>
+                <div id="slide2copy"><h4>The Muhammad Ali Center hosts<br />the 2013 SND Fall Workshop</h4></div> 
+			</div></a>
+			
+		<a href="kdm.html"><div id="biggin" class="jumbotron masthead">
+				<img src="images/derbyjpg.jpg" />
+              	<div id="slide3hed">DERBY GALA</div>
+                <div id="slide3copy"><h4>Join us at the Kentucky Derby Museum for our opening reception. Come early for live racing at the track.</h4></div>
+			</div></a>
+			
+            	<div id="biggin" class="jumbotron masthead" style="background-color: #000000;">
+				<img src="images/connectslidebkg.png" />
+              				<div id="slide4hed">CONNECT <br />TO SNDLOU</div>
+               				 <div id="slide4copy">
+                				<a href="https://www.facebook.com/sndlou?fref=ts" target="new"><img src="images/facebook.png" /></a>
+                   				 <a href="https://twitter.com/sndlou" target="new"><img src="images/twitterslide.png" /></a>
+                			</div>
+                </div>
+                <a href="http://www.sndlou.com/news/2013/09/23/an-ode-to-louisville/" target="new"><div id="biggin" class="jumbotron masthead">
+				<img src="images/loveKY.jpg" /> 
+		</div></a>
+               
+		<a href="#" class="slidesjs-previous slidesjs-navigation"><i class="icon-chevron-left icon-large"></i></a>
+              	<a href="#" class="slidesjs-next slidesjs-navigation"><i class="icon-chevron-right icon-large"></i></a>
+		
+		
+	</div>
+    <div id="forthephones" class="hidden-desktop">
+		<div id="smallin" class="span12">
+				<img src="images/main.png" />
+              	<h1>Welcome to the Ville.</h1>   
+		</div>
+	</div>
+    </div>
+	
+		
+        
+        <div id="circles" class="row">
+        	<div id="therow" class="span12">
+            	<div id="circle1" class="underling">
+                	<a href="speakers.html"><div class="circleimg"><img src="images/chaircircle.png" /></div></a>
+                    <div class="texty"><h3>A heavyweight fight card</h3>
+                    <p>We're attracting heavyweight speakers from around the globe. Our sessions hit hard on design, technique, illustration and inspiration across print and digital platforms.</p>
+                    <p><a href="http://sndlouisville2013.sched.org" target="new">[Read More]</a></p>
+                    </div>
+                </div>
+                <div id="circle2" class="underling">
+                	<a href="venues.html"><div class="circleimg"><img src="images/alicircle.png" /></div></a>
+                    <div class="texty"><h3>The greatest venues</h3>
+                  <p>The <a href="alicenter.html">Muhammad Ali Center</a> will be the undisputed champion of SND Workshop locales. And don't forget we'll take you to <a href="kdm.html">Churchill Downs</a> for the opening reception (and racing).</p>
+                  <p><a href="venues.html">[Read More]</a></p>
+                  </div>
+                </div>
+                <div id="circle3" class="underling">
+                	<div class="circleimg"><img src="images/milkcircle.png" /></div>
+                    <div class="texty"><h3>A delicious knockout city</h3>
+                  <p>Louisville just topped Lonely Planet's Top U.S. Travel Destinations 2013 list. Our city is a foodie's dream and a bourbon lover's paradise, finished off with a beautiful, scenic location.</p>
+                  <p><a href="http://www.sndlou.com/news/about-louisville/">[Read More]</a></p>
+                  </div>
+                </div>
+                <div id="circle4" class="underling">
+                	<a href="register.html"><div class="circleimg"><img src="images/galtcircle.png" /></div></a>
+                    <div class="texty"><h3>Reserve your ringside seat</h3>
+                  <p>Act now to get the best-priced registration to the Fall Workshop. We've partnered with the Galt House Hotel and Suites, located in the middle of the action, for a special room rate.</p>
+                  <p><a href="register.html">[Register Here]</a></p>
+                  </div>
+                </div>
+                <div id="circle5" class="underling end">
+               	   <a href="sponsors.html"> <div class="circleimg"><img src="images/sponsorcircle.png" /></div></a>
+                	<div class="texty"><h3>Your chance to sponsor the bout</h3>
+                  <p>Get your name in the bright lights. The attendees at SND's premier event are journalists right in the center of innovation at news organizations from around the world.</p>
+                  <p><a href="sponsors.html">[Read More]</a></p>
+                  </div>
+              </div>
+            </div>
+        </div>
+        
+        <div id="under" class="row">
+        	<div id="theribbon" class="span12 hidden-phone hidden-tablet">
+			<div class="ribbon"><p><b>IT’S THE TRUTH #26:</b> Louisville is the largest disco ball manufacturer in the United States. We know how to get down and boogie.<p></div>
+            </div>
+		</div>
+        <div id="footer" class="row">
+        	<h6>Made with <a href="http://twitter.github.io/bootstrap/" target="new">Twitter Bootstrap</a> and elbow grease. Powered by <a href="http://www.wordpress.org" target="new">Wordpress</a>. </h6>
+        </div>
+        
+</div>
+
+</body>
+
+</html>
